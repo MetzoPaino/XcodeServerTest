@@ -13,7 +13,6 @@
 		74068CF521F9C08900994FE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74068CF421F9C08900994FE7 /* Assets.xcassets */; };
 		74068CF821F9C08900994FE7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74068CF621F9C08900994FE7 /* LaunchScreen.storyboard */; };
 		74068D0321F9C08900994FE7 /* XcodeServerTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74068D0221F9C08900994FE7 /* XcodeServerTestTests.swift */; };
-		74068D0E21F9C08900994FE7 /* XcodeServerTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74068D0D21F9C08900994FE7 /* XcodeServerTestUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,8 +44,6 @@
 		74068D0221F9C08900994FE7 /* XcodeServerTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeServerTestTests.swift; sourceTree = "<group>"; };
 		74068D0421F9C08900994FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		74068D0921F9C08900994FE7 /* XcodeServerTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XcodeServerTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		74068D0D21F9C08900994FE7 /* XcodeServerTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XcodeServerTestUITests.swift; sourceTree = "<group>"; };
-		74068D0F21F9C08900994FE7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +76,6 @@
 			children = (
 				74068CEC21F9C08800994FE7 /* XcodeServerTest */,
 				74068D0121F9C08900994FE7 /* XcodeServerTestTests */,
-				74068D0C21F9C08900994FE7 /* XcodeServerTestUITests */,
 				74068CEB21F9C08800994FE7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -114,15 +110,6 @@
 				74068D0421F9C08900994FE7 /* Info.plist */,
 			);
 			path = XcodeServerTestTests;
-			sourceTree = "<group>";
-		};
-		74068D0C21F9C08900994FE7 /* XcodeServerTestUITests */ = {
-			isa = PBXGroup;
-			children = (
-				74068D0D21F9C08900994FE7 /* XcodeServerTestUITests.swift */,
-				74068D0F21F9C08900994FE7 /* Info.plist */,
-			);
-			path = XcodeServerTestUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +260,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74068D0E21F9C08900994FE7 /* XcodeServerTestUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
