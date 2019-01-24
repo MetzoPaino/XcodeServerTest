@@ -12,7 +12,11 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("View did load")
+        print("2 + 2 = \(return5())")
+    }
+
+    func return5() -> Int {
+        return 5
     }
 }
 
